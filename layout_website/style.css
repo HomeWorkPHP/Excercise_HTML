@@ -18,6 +18,11 @@ body {
     margin-bottom: 5px;
     line-height: 100px;
 }
+#head div {
+    color: red;
+    text-align: center;
+    font-weight: 900;
+}
 
 #head-link {
     height: 30px;
@@ -29,6 +34,11 @@ body {
     margin-bottom:5px;
     clear: both;
 }
+#head-link div{
+    color: red;
+    text-align: center;
+    font-weight: 900;
+}
 
 #left {
     width: 150px;
@@ -37,34 +47,56 @@ body {
     border: 1px solid rgb(207, 204, 204);
     float: left;
     margin-bottom: 5px;
-
+    line-height: 400px;
+}
+#left div{
+    color: red;
+    text-align: center;
+    font-weight: 900;
 }
 
 #content {
     min-height: 400px;
     width: 600px;
-    background-color: rgb(244, 240, 240);
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(207, 204, 204);
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
     float: left;
+    line-height: 400px;
+}
+#content div {
+    color: red;
+    text-align: center;
+    font-weight: 900;
 }
 
+
 #right {
-    background-color: rgb(244, 240, 240);
+    background-color: rgb(245, 249, 190);
     border: 1px solid rgb(207, 204, 204);
     min-height: 400px;
     float: left;
     width: 235px;
     margin-bottom: 5px;
-
+    line-height: 400px;
+}
+#right div {
+    color: red;
+    text-align: center;
+    font-weight: 900;
 }
 
 #footer {
-    background-color: rgb(244, 240, 240);
+    background-color: rgb(228, 238, 244);
     border: 1px solid rgb(207, 204, 204);
     clear: both;
     height: 50px;
-
+    line-height: 50px;
+}
+#footer div {
+    color: red;
+    text-align: center;
+    font-weight: 900;
 }
