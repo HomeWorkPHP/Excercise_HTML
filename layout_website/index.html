@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        #main {
+            width: 1000px;
+            padding: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #head {
+            height: 100px;
+            background-color: rgb(244, 240, 240);
+            border: 1px solid rgb(207, 204, 204);
+            margin-bottom: 5px;
+            line-height: 100px;
+        }
+
+        #head-link {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: rgb(244, 240, 240);
+            border: 1px solid rgb(207, 204, 204);
+            margin-bottom:5px;
+            clear: both;
+        }
+        
+        #left {
+            width: 150px;
+            min-height: 400px;
+            background-color: rgb(244, 240, 240);
+            border: 1px solid rgb(207, 204, 204);
+            float: left;
+            margin-bottom: 5px;
+
+        }
+
+        #content {
+            min-height: 400px;
+            width: 600px;
+            background-color: rgb(244, 240, 240);
+            border: 1px solid rgb(207, 204, 204);
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            float: left;
+        }
+
+        #right {
+            background-color: rgb(244, 240, 240);
+            border: 1px solid rgb(207, 204, 204);
+            min-height: 400px;
+            float: left;
+            width: 235px;
+            margin-bottom: 5px;
+
+        }
+
+        #footer {
+            background-color: rgb(244, 240, 240);
+            border: 1px solid rgb(207, 204, 204);
+            clear: both;
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <!-- head -->
+        <div id="head">
+            <div>head</div>
+        </div>
+        <!-- head-link -->
+        <div id="head-link">head-link</div>
+        <!-- content -->
+        <div id="left">left</div>
+        <div id="content">content</div>
+        <div id="right">right</div>
+        <div style="clear: both;"></div>
+        <!-- footer -->
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
