@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    float: left;
+}
+
+#menu {
+    background-color: black;
+    overflow: hidden;
+}
+
+#menu a{
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+#menu a:hover {
+    background-color: darkgrey;
+}
+
+#content {
+    width: 1024px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+#main_content {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.hr {
+    width: 80%;
+    border: 1px solid #dbd8d8;
+    float: left;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.first_post {
+    width: 100%;
+    float: left;
+}
+
+.first_post img {
+    text-align: center;
+    width: 80%;
+}
+
+.category_name {
+    float: left;
+    font-size: 18px;
+}
